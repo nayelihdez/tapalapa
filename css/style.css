@@ -2333,317 +2333,317 @@ margin-top: 2em
 
 /*  7.22. SERVICE ICON CENTER BOXED
     ------------------------------------------------------------------------- */
-.service-icon-center-boxed{
-    width: 100%;
-    background-color: #fcfcfc;
-    padding: 30px 20px;
-}
-
-.service-icon-center-boxed .service-title{
-    display: table;
-    margin: 0 auto 10px;
-}
-
-.service-icon-center-boxed .service-title .icon-container{
-    width: 60px;
-    height: 60px;
-    float: left;
-}
-
-.service-icon-center-boxed .service-title h4{
-    padding-left: 70px;
-    padding-top: 20px;
-}
-
-.service-icon-center-boxed p{
-    text-align: center;
-    padding-bottom: 0;
-}
-
-.service-icon-center-boxed .icon-container i{
-    width: 60px;
-    height: 60px;
-    font-size: 46px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-
-
-/*
-    7.23. SERVICES ICON LEFT 
-    ------------------------------------------------------------------------- */
-.service-icon-left{
-    width: 100%;
-}
-
-.service-icon-left .icon-container{
-    float: left;
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-
-    border: 2px solid #ddd;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-}
-
-.service-icon-left .icon-container img,
-.service-icon-left .icon-container svg{
-    width: 60px;
-    display: block;
-    margin: 0 auto;
-    vertical-align: middle;
-    height: 60px;
-    position: relative;
-    top: 20px;
-}
-
-.service-icon-left .service-details{
-    padding-left: 120px;
-}
-
-.service-icon-left .service-details h1,
-.service-icon-left .service-details h2,
-.service-icon-left .service-details h3,
-.service-icon-left .service-details h4{
-    margin-bottom: 15px;
-}
-
-.service-icon-left .icon-container i{
-    font-size: 60px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    height: 100px;
-    width: 100px;
-}
-
-/*
-    7.24. SERVICES ICON LEFT BOXED
-    ------------------------------------------------------------------------- */
-.service-icon-left-boxed{
-    background-color: #fcfcfc;
-    padding: 30px 40px;
-}
-
-.service-icon-left-boxed .icon-container{
-    float: left;
-    width: 100px;
-}
-
-.service-icon-left-boxed .service-details{
-    padding-left: 120px;
-}
-
-.service-icon-left-boxed .service-details h1,
-.service-icon-left-boxed .service-details h2,
-.service-icon-left-boxed .service-details h3,
-.service-icon-left-boxed .service-details h4{
-    margin-bottom: 15px;
-}
-
-.service-icon-left-boxed .service-details p{
-    padding-bottom: 0;
-}
-
-.col-md-3 .service-icon-left-boxed .icon-container{
-    float: none;
-    margin: 0 auto 20px;
-}
-
-.col-md-3 .service-icon-left-boxed .service-details{
-    padding-left: 0;
-}
-
-
-.col-md-3 .service-icon-left-boxed .service-details h1,
-.col-md-3 .service-icon-left-boxed .service-details h2,
-.col-md-3 .service-icon-left-boxed .service-details h3,
-.col-md-3 .service-icon-left-boxed .service-details h4,
-.col-md-3 .service-icon-left-boxed .service-details p{
-    text-align: center;
-}
-
-.service-icon-left-boxed i{
-    font-size: 70px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    width: 100px;
-}
-
-
-/*  7.25. SERVICE LIST - small icons and text
-    ------------------------------------------------------------------------- */
-.service-list li{
-    list-style: none;
-    width: 100%;
-    float: left;
-    padding-bottom: 10px;
-}
-
-.service-list li:last-child{
-    padding-bottom: 0;
-}
-
-.service-list li .icon-container{
-    width: 70px;
-    height: 70px;
-    float: left;
-}
-
-.service-list li p{
-    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
-    font-size: 18px;
-    padding-top: 20px;
-    padding-left: 95px;
-}
-
-.service-list li i{
-    font-size: 46px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    width: 70px;
-}
-
-
-/*  7.26. SERVICES LIST BIG ICONS 
-    ------------------------------------------------------------------------- */
-.col-md-9 .service-list-big-icons li{
-    width: 33.3%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-bottom: 30px;
-}
-
-.col-md-9 .service-list-big-icons li:nth-child(3n){
-    padding-right: 0;
-}
-
-.col-md-9 .service-list-big-icons li:first-child{
-    padding-left: 0;
-}
-
-.service-list-big-icons{
-    width: 100%;
-}
-
-.service-list-big-icons li{
-    list-style: none;
-    float: left;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-bottom: 30px;
-}
-
-.service-list-big-icons li .icon-container{
-    background-color: #fff;
-    width: 80px;
-    height: 80px;
-    float: left;
-    border: 2px solid #ddd;
-
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-}
-
-
-.service-list-big-icons .icon-container svg,
-.service-list-big-icons .icon-container img{
-    width: 60px;
-    display: block;
-    margin: 0 auto;
-    height: 100%;
-}
-
-.service-list-big-icons li h4{
-    font-weight: normal;
-    padding-left: 100px;
-    padding-top: 30px;
-}
-
-.service-list-big-icons .icon-container i{
-    font-size: 36px;
-    width: 80px;
-    height: 80px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-
-
-/*  7.27. SERVICES LIST BIG ICONS + DETAILS (text)
-    ------------------------------------------------------------------------- */
-.service-list-big-icons-details li{
-    margin-bottom: 20px;
-}
-
-.col-md-9 .service-list-big-icons-details li{
-    width: 33.3%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-bottom: 30px;
-}
-
-.col-md-9 .service-list-big-icons-details li:nth-child(3n){
-    padding-right: 0;
-}
-
-.col-md-9 .service-list-big-icons-details li:first-child{
-    padding-left: 0;
-}
-
-.service-list-big-icons-details{
-    width: 100%;
-}
-
-.service-list-big-icons-details li{
-    list-style: none;
-    float: left;
-}
-
-.service-list-big-icons-details li .icon-container{
-    background-color: #fff;
-    width: 100px;
-    height: 100px;
-    float: left;
-    border: 2px solid #ddd;
-
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-}
-
-.service-list-big-icons-details li .icon-container svg,
-.service-list-big-icons-details li .icon-container img{
-    width: 60px;
-    height: 100%;
-    margin: 0 auto;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.service-list-big-icons-details li .service-details{
-    padding-left: 125px;
-    padding-top: 10px;
-}
-
-.service-list-big-icons-details li .service-details h4{
-    margin-bottom: 15px;
-}
-
-.service-list-big-icons-details .icon-container i{
-    width: 100px;
-    height: 100px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 50px;
-}
+    .service-icon-center-boxed{
+        width: 100%;
+        background-color: #fcfcfc;
+        padding: 30px 20px;
+    }
+    
+    .service-icon-center-boxed .service-title{
+        display: table;
+        margin: 0 auto 10px;
+    }
+    
+    .service-icon-center-boxed .service-title .icon-container{
+        width: 60px;
+        height: 60px;
+        float: left;
+    }
+    
+    .service-icon-center-boxed .service-title h4{
+        padding-left: 70px;
+        padding-top: 20px;
+    }
+    
+    .service-icon-center-boxed p{
+        text-align: center;
+        padding-bottom: 0;
+    }
+    
+    .service-icon-center-boxed .icon-container i{
+        width: 60px;
+        height: 60px;
+        font-size: 46px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    
+    /*
+        7.23. SERVICES ICON LEFT 
+        ------------------------------------------------------------------------- */
+    .service-icon-left{
+        width: 100%;
+    }
+    
+    .service-icon-left .icon-container{
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+    
+        border: 2px solid #ddd;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    .service-icon-left .icon-container img,
+    .service-icon-left .icon-container svg{
+        width: 60px;
+        display: block;
+        margin: 0 auto;
+        vertical-align: middle;
+        height: 60px;
+        position: relative;
+        top: 20px;
+    }
+    
+    .service-icon-left .service-details{
+        padding-left: 120px;
+    }
+    
+    .service-icon-left .service-details h1,
+    .service-icon-left .service-details h2,
+    .service-icon-left .service-details h3,
+    .service-icon-left .service-details h4{
+        margin-bottom: 15px;
+    }
+    
+    .service-icon-left .icon-container i{
+        font-size: 60px;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        height: 100px;
+        width: 100px;
+    }
+    
+    /*
+        7.24. SERVICES ICON LEFT BOXED
+        ------------------------------------------------------------------------- */
+    .service-icon-left-boxed{
+        background-color: #fcfcfc;
+        padding: 30px 40px;
+    }
+    
+    .service-icon-left-boxed .icon-container{
+        float: left;
+        width: 100px;
+    }
+    
+    .service-icon-left-boxed .service-details{
+        padding-left: 120px;
+    }
+    
+    .service-icon-left-boxed .service-details h1,
+    .service-icon-left-boxed .service-details h2,
+    .service-icon-left-boxed .service-details h3,
+    .service-icon-left-boxed .service-details h4{
+        margin-bottom: 15px;
+    }
+    
+    .service-icon-left-boxed .service-details p{
+        padding-bottom: 0;
+    }
+    
+    .col-md-3 .service-icon-left-boxed .icon-container{
+        float: none;
+        margin: 0 auto 20px;
+    }
+    
+    .col-md-3 .service-icon-left-boxed .service-details{
+        padding-left: 0;
+    }
+    
+    
+    .col-md-3 .service-icon-left-boxed .service-details h1,
+    .col-md-3 .service-icon-left-boxed .service-details h2,
+    .col-md-3 .service-icon-left-boxed .service-details h3,
+    .col-md-3 .service-icon-left-boxed .service-details h4,
+    .col-md-3 .service-icon-left-boxed .service-details p{
+        text-align: center;
+    }
+    
+    .service-icon-left-boxed i{
+        font-size: 70px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        width: 100px;
+    }
+    
+    
+    /*  7.25. SERVICE LIST - small icons and text
+        ------------------------------------------------------------------------- */
+    .service-list li{
+        list-style: none;
+        width: 100%;
+        float: left;
+        padding-bottom: 10px;
+    }
+    
+    .service-list li:last-child{
+        padding-bottom: 0;
+    }
+    
+    .service-list li .icon-container{
+        width: 70px;
+        height: 70px;
+        float: left;
+    }
+    
+    .service-list li p{
+        font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+        font-size: 18px;
+        padding-top: 20px;
+        padding-left: 95px;
+    }
+    
+    .service-list li i{
+        font-size: 46px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        width: 70px;
+    }
+    
+    
+    /*  7.26. SERVICES LIST BIG ICONS 
+        ------------------------------------------------------------------------- */
+    .col-md-9 .service-list-big-icons li{
+        width: 33.3%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .col-md-9 .service-list-big-icons li:nth-child(3n){
+        padding-right: 0;
+    }
+    
+    .col-md-9 .service-list-big-icons li:first-child{
+        padding-left: 0;
+    }
+    
+    .service-list-big-icons{
+        width: 100%;
+    }
+    
+    .service-list-big-icons li{
+        list-style: none;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .service-list-big-icons li .icon-container{
+        background-color: #fff;
+        width: 80px;
+        height: 80px;
+        float: left;
+        border: 2px solid #ddd;
+    
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    
+    .service-list-big-icons .icon-container svg,
+    .service-list-big-icons .icon-container img{
+        width: 60px;
+        display: block;
+        margin: 0 auto;
+        height: 100%;
+    }
+    
+    .service-list-big-icons li h4{
+        font-weight: normal;
+        padding-left: 100px;
+        padding-top: 30px;
+    }
+    
+    .service-list-big-icons .icon-container i{
+        font-size: 36px;
+        width: 80px;
+        height: 80px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    
+    /*  7.27. SERVICES LIST BIG ICONS + DETAILS (text)
+        ------------------------------------------------------------------------- */
+    .service-list-big-icons-details li{
+        margin-bottom: 20px;
+    }
+    
+    .col-md-9 .service-list-big-icons-details li{
+        width: 33.3%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .col-md-9 .service-list-big-icons-details li:nth-child(3n){
+        padding-right: 0;
+    }
+    
+    .col-md-9 .service-list-big-icons-details li:first-child{
+        padding-left: 0;
+    }
+    
+    .service-list-big-icons-details{
+        width: 100%;
+    }
+    
+    .service-list-big-icons-details li{
+        list-style: none;
+        float: left;
+    }
+    
+    .service-list-big-icons-details li .icon-container{
+        background-color: #fff;
+        width: 100px;
+        height: 100px;
+        float: left;
+        border: 2px solid #ddd;
+    
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+    }
+    
+    .service-list-big-icons-details li .icon-container svg,
+    .service-list-big-icons-details li .icon-container img{
+        width: 60px;
+        height: 100%;
+        margin: 0 auto;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .service-list-big-icons-details li .service-details{
+        padding-left: 125px;
+        padding-top: 10px;
+    }
+    
+    .service-list-big-icons-details li .service-details h4{
+        margin-bottom: 15px;
+    }
+    
+    .service-list-big-icons-details .icon-container i{
+        width: 100px;
+        height: 100px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 50px;
+    }
 
 
 /*
