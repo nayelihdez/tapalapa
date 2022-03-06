@@ -1,0 +1,8 @@
+.flexbox-containerportal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .colportal {
+    flex-basis: 100%;
+  }
