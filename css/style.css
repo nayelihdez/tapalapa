@@ -544,6 +544,11 @@ a.download-link span i{
     background: none;
 }
 
+.navbar-portal{
+    border: none;
+    background:  #ffcf30 ;
+}
+
 #dl-menu{
     display: none;
 }
@@ -563,6 +568,11 @@ a.download-link span i{
 
 .navbar-default .navbar-nav>li>a{
     color: #333;    
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-portal .navbar-nav>li>a{
+    color: rgb(0, 0, 0);    
     border-bottom: 3px solid transparent;
 }
 
