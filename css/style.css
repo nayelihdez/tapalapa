@@ -4046,3 +4046,8 @@ margin-top: 2em
 .photo > div > h2 {
     margin-bottom: 1em;
 }
+
+iframe {
+    width: 1px;
+    min-width: 100%;
+}

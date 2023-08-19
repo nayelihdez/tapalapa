@@ -22,6 +22,12 @@
 
         <!-- Font icons -->
         <link rel="stylesheet" href="icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css"/><!-- Fontawesome icons css -->
+        <!-- iFrame Resizer -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.6/iframeResizer.min.js"
+            integrity="sha512-f0wd6UIvZbsjPNebGx+uMzHmg6KXr1jWvumJDYSEDmwYJYOptZ0dTka/wBJu7Tj80tnCYMKoKicqvZiIc9GJgw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
     </head>
 
     <body>
@@ -110,30 +116,26 @@
         <div class="page-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <div class="custom-heading">
                             <h2>Avances mensuales de la cuenta pública</h2>
                         </div>
 
 
                         <p class="text-big">
-                            "Honestidad y transparencia
+                            "Honestidad y transparencia"
                         </p>
-                      
+
+                        <iframe id="publicAccountIframe" src="https://tapalapa.gob.mx/public-account/tapalapa"></iframe>
                     </div><!-- .col-md-8 end -->
 
-                    
-
-                <div class="row">
-                    <div class="col-md-8" style="text-align: center; height: 600px;">
-                        <iframe src="https://tapalapa.gob.mx/public-account/tapalapa" width="80%" height="120%"></iframe>
-                    </div><!-- .col-md-6 end -->
-                </div><!-- .row end -->
             </div><!-- .container end -->
         </div><!-- .page-content end -->  
 
        
-
+        <script>
+            iFrameResize({ checkOrigin: false }, "#publicAccountIframe")
+        </script>
         <script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
         <script src="js/bootstrap.min.js"></script><!-- .bootstrap script -->
         <script src="js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->  

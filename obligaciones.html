@@ -25,7 +25,13 @@
 
         <!-- Font icons -->
         <link rel="stylesheet" href="icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css"/><!-- Fontawesome icons css -->
-    </head>
+        <!-- iFrame Resizer -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.6/iframeResizer.min.js"
+            integrity="sha512-f0wd6UIvZbsjPNebGx+uMzHmg6KXr1jWvumJDYSEDmwYJYOptZ0dTka/wBJu7Tj80tnCYMKoKicqvZiIc9GJgw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+        </head>
     <body>
         <div class="header-wrapper header-transparent">
             <!-- .header.header-style01 start -->
@@ -158,11 +164,11 @@
                 <div class="photo" >
                     <div class="custom-heading02">
                         <h2>Art 85</h2>
-                        <iframe src="https://tapalapa.gob.mx/transparency/art85/tapalapa" width="100%" height="3400px"></iframe>
+                        <iframe id="art85Iframe" src="https://tapalapa.gob.mx/transparency/art85/tapalapa"></iframe>
                     </div>
                     <div class="custom-heading02">
                         <h2>Art 89</h2>
-                        <iframe src="https://tapalapa.gob.mx/transparency/art89/tapalapa" width="100%" height="500px"></iframe>
+                        <iframe id="art89Iframe" src="https://tapalapa.gob.mx/transparency/art89/tapalapa"></iframe>
                     </div>
                 </div>
 
@@ -172,6 +178,10 @@
             <a href="#" class="scroll-up">Scroll</a>
         </div><!-- #footer-wrapper end -->
 
+        <script>
+            iFrameResize({ checkOrigin: false }, "#art85Iframe")
+            iFrameResize({ checkOrigin: false }, "#art89Iframe")
+        </script>
         <script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
         <script src="js/bootstrap.min.js"></script><!-- .bootstrap script -->
         <script src="js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->
